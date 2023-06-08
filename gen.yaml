@@ -1,4 +1,9 @@
 configVersion: 1.0.0
+management:
+  docChecksum: 0ba55eb0766d0ddaf7d5ad157c62086d
+  docVersion: 0.0.1
+  speakeasyVersion: 1.45.1
+  generationVersion: 2.37.2
 generation:
   comments:
     disableComments: false
@@ -8,6 +13,6 @@ generation:
   singleTagPerOp: false
   tagNamespacingDisabled: false
 go:
-  version: 0.0.1
+  version: 1.0.0
   maxMethodParams: 0
   packageName: MeldAPI
