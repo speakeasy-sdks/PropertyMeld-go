@@ -130,8 +130,8 @@ func New(opts ...SDKOption) *MeldAPI {
 		sdkConfiguration: sdkConfiguration{
 			Language:          "go",
 			OpenAPIDocVersion: "0.0.1",
-			SDKVersion:        "1.0.0",
-			GenVersion:        "2.37.2",
+			SDKVersion:        "1.1.0",
+			GenVersion:        "2.39.0",
 		},
 	}
 	for _, opt := range opts {

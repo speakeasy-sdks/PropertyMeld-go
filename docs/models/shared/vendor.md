@@ -1,0 +1,17 @@
+# Vendor
+
+
+## Fields
+
+| Field                                                            | Type                                                             | Required                                                         | Description                                                      |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
+| `Address`                                                        | [Address](../../models/shared/address.md)                        | :heavy_check_mark:                                               | N/A                                                              |
+| `Created`                                                        | [time.Time](https://pkg.go.dev/time#Time)                        | :heavy_check_mark:                                               | N/A                                                              |
+| `Email`                                                          | **string*                                                        | :heavy_minus_sign:                                               | N/A                                                              |
+| `ExcludedPropertyGroups`                                         | []*int64*                                                        | :heavy_check_mark:                                               | N/A                                                              |
+| `Fax`                                                            | **string*                                                        | :heavy_minus_sign:                                               | Home phone number. Must be in E.164 format, e.g. '+14155552671'. |
+| `ID`                                                             | *int64*                                                          | :heavy_check_mark:                                               | N/A                                                              |
+| `IsActive`                                                       | *bool*                                                           | :heavy_check_mark:                                               | N/A                                                              |
+| `Name`                                                           | **string*                                                        | :heavy_minus_sign:                                               | N/A                                                              |
+| `Phone`                                                          | **string*                                                        | :heavy_minus_sign:                                               | Home phone number. Must be in E.164 format, e.g. '+14155552671'. |
+| `Updated`                                                        | [time.Time](https://pkg.go.dev/time#Time)                        | :heavy_check_mark:                                               | N/A                                                              |

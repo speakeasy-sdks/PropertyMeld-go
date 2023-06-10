@@ -1,0 +1,19 @@
+# Owner
+
+
+## Fields
+
+| Field                                                            | Type                                                             | Required                                                         | Description                                                      |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
+| `Address`                                                        | [*Address](../../models/shared/address.md)                       | :heavy_minus_sign:                                               | N/A                                                              |
+| `Contact`                                                        | [*Contact](../../models/shared/contact.md)                       | :heavy_minus_sign:                                               | N/A                                                              |
+| `Created`                                                        | [time.Time](https://pkg.go.dev/time#Time)                        | :heavy_check_mark:                                               | N/A                                                              |
+| `Email`                                                          | *string*                                                         | :heavy_check_mark:                                               | N/A                                                              |
+| `FirstName`                                                      | *string*                                                         | :heavy_check_mark:                                               | N/A                                                              |
+| `HubAccessLevel`                                                 | [*HubAccessLevelEnum](../../models/shared/hubaccesslevelenum.md) | :heavy_minus_sign:                                               | N/A                                                              |
+| `ID`                                                             | *int64*                                                          | :heavy_check_mark:                                               | N/A                                                              |
+| `InvitedToHub`                                                   | **bool*                                                          | :heavy_minus_sign:                                               | N/A                                                              |
+| `IsActive`                                                       | *bool*                                                           | :heavy_check_mark:                                               | N/A                                                              |
+| `LastName`                                                       | *string*                                                         | :heavy_check_mark:                                               | N/A                                                              |
+| `Properties`                                                     | []*int64*                                                        | :heavy_minus_sign:                                               | N/A                                                              |
+| `Updated`                                                        | [time.Time](https://pkg.go.dev/time#Time)                        | :heavy_check_mark:                                               | N/A                                                              |

@@ -1,0 +1,18 @@
+# PmAPIUnit
+
+
+## Fields
+
+| Field                                                     | Type                                                      | Required                                                  | Description                                               |
+| --------------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------- |
+| `Apartment`                                               | **string*                                                 | :heavy_minus_sign:                                        | N/A                                                       |
+| `Created`                                                 | [time.Time](https://pkg.go.dev/time#Time)                 | :heavy_check_mark:                                        | N/A                                                       |
+| `Department`                                              | **string*                                                 | :heavy_minus_sign:                                        | N/A                                                       |
+| `ID`                                                      | *int64*                                                   | :heavy_check_mark:                                        | N/A                                                       |
+| `IsActive`                                                | **bool*                                                   | :heavy_minus_sign:                                        | N/A                                                       |
+| `MaintenanceNotes`                                        | **string*                                                 | :heavy_minus_sign:                                        | N/A                                                       |
+| `Prop`                                                    | [ProjectProperty](../../models/shared/projectproperty.md) | :heavy_check_mark:                                        | N/A                                                       |
+| `Room`                                                    | **string*                                                 | :heavy_minus_sign:                                        | N/A                                                       |
+| `Suite`                                                   | **string*                                                 | :heavy_minus_sign:                                        | N/A                                                       |
+| `Unit`                                                    | **string*                                                 | :heavy_minus_sign:                                        | N/A                                                       |
+| `Updated`                                                 | [time.Time](https://pkg.go.dev/time#Time)                 | :heavy_check_mark:                                        | N/A                                                       |

@@ -1,0 +1,13 @@
+# MeldInvoiceListMeld
+
+
+## Fields
+
+| Field                                                                     | Type                                                                      | Required                                                                  | Description                                                               |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| `BriefDescription`                                                        | *string*                                                                  | :heavy_check_mark:                                                        | N/A                                                                       |
+| `Created`                                                                 | [time.Time](https://pkg.go.dev/time#Time)                                 | :heavy_check_mark:                                                        | N/A                                                                       |
+| `ID`                                                                      | *int64*                                                                   | :heavy_check_mark:                                                        | N/A                                                                       |
+| `Prop`                                                                    | [MeldInvoiceListProperty](../../models/shared/meldinvoicelistproperty.md) | :heavy_check_mark:                                                        | N/A                                                                       |
+| `ReferenceID`                                                             | **string*                                                                 | :heavy_minus_sign:                                                        | N/A                                                                       |
+| `Unit`                                                                    | [MeldInvoiceListViewUnit](../../models/shared/meldinvoicelistviewunit.md) | :heavy_check_mark:                                                        | N/A                                                                       |
